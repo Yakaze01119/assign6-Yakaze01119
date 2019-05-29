@@ -50,7 +50,6 @@ class Robot extends Enemy {
     }
     popMatrix();
     
-    println(player.x + player.w/2,x-w+HAND_OFFSET_X_BACKWARD);
   }
   
 	// HINT: Player Detection in update()
